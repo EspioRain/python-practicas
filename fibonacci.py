@@ -17,6 +17,21 @@ def fib(x):
             elif i == 1:
                 fn.append(1)
         return fn
+    
 
 
-print(fib(1))
+a = int(input("Ingrese la cantidad de numeros (>2): "))
+
+print(a)
+
+f =open("fibo.txt", "w")
+
+resultado = (fib(a))
+if resultado != None:
+    f.write(f"Fibonacci de {a}"+"\n")
+
+    for i in range(len(resultado)):
+        f.write(str(resultado[i])+"\n")
+
+    f.close()
+
