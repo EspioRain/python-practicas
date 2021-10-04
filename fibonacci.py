@@ -22,7 +22,9 @@ def fib(x):
 
 a = int(input("Ingrese la cantidad de numeros (>2): "))
 
-print(a)
+
+
+print("Tu fibo esta en el archivo creado")
 
 f =open("fibo.txt", "w")
 
