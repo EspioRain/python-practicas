@@ -36,4 +36,6 @@ if resultado != None:
         f.write(str(resultado[i])+"\n")
 
     f.close()
+    
+
 
